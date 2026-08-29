@@ -86,7 +86,7 @@ namespace TvcLesson03.Controllers
         }
 
         // Collection => view
-        [Route("all")]
+        [Route("/all")]
         public IActionResult TvcGetAllProduct()
         {
             ViewData["products"] = _products;
